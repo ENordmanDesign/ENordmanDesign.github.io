@@ -3,6 +3,7 @@ body {
   margin: 0% 5%;
   min-width: 325px;
   max-width: 1800px;
+  overflow:auto;
 }
 
 #content {
