@@ -331,6 +331,7 @@ footer {
   position:absolute;
   left:0px;
   bottom:100wh;
+  overflow-x:hidden;
 }
 
 /* || Responsive Styles || */

@@ -1,5 +1,6 @@
 body {
   min-width: 310px;
+  overflow-x: hidden;
 }
 #content {
   margin: 0px 0px 0px 85px;
@@ -62,7 +63,7 @@ body {
 }
 
 #gallery {
-  min-width: 300px;
+  width:98vw;
 }
 
 #galleryBackground {
@@ -72,7 +73,7 @@ body {
   top: 0px;
   left: 0px;
   z-index: 10000;
-
+overflow:hidden;
   background-color: rgba(0, 0, 0, 0.808);
 }
 
