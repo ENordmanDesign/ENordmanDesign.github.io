@@ -1,0 +1,580 @@
+body {
+  background-color: #f5f2ef;
+  margin: 0% 5%;
+  min-width: 325px;
+  max-width: 1800px;
+}
+#content {
+  margin-left: 85px;
+  margin-top: 5%;
+  margin-right: 3%;
+}
+
+/* || Home Page Header Styles */
+.profilePicture {
+  width: 100%;
+  max-width:200px;
+}
+
+h1,
+h2 {
+  font-family: gloock;
+  min-width: 250px;
+}
+
+h4 {
+  font-family: montserrat;
+  font-weight: 600;
+  color: #ea1f63;
+  line-height: 0px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  line-height: 0px;
+}
+.projectHead h2:hover {
+  color: #ea1f63;
+}
+h1 {
+  font-size: 50px;
+  line-height: 0px;
+  position: absolute;
+  z-index: -1;
+}
+
+#helloDetail {
+  height: 60px;
+}
+
+#pinkUnderline {
+  width: 140px;
+  height: 15px;
+  background-color: #ea1f63;
+  position: absolute;
+  z-index: -1000;
+  margin-top: 43px;
+}
+
+.project {
+  border-top: solid 1px #352a27;
+  margin-top: 40px;
+  padding-top: 25px;
+}
+
+p {
+  font-family: montserrat;
+  color: #352a27;
+}
+
+#introParagraph {
+  font-weight: 400;
+  font-size:20px;
+  line-height: 30px;
+}
+
+.projectThumbnail {
+  max-width: 100%;
+}
+
+/* || About Me Styles ||*/
+
+#AMheaderContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#AMprofilePicture {
+  align-self: center;
+}
+
+#aboutMeName {
+  font-size: 25px;
+  padding-top: 18px;
+}
+
+#AMgreeting{
+  margin-bottom:10px;
+}
+
+#AMgreeting h5 {
+  font-family: montserrat;
+  font-size: 15px;
+  color:#ea1f63;
+  font-weight: 200;
+  line-height: 0px;
+  margin-top:70px;
+}
+
+#AMpinkUnderline {
+  width: 190px;
+  height: 10px;
+  background-color: #ea1f63;
+  position: absolute;
+  z-index: -1000;
+  margin-top: 40px;
+  margin-left: 44px;
+}
+
+#AMintroParagraph {
+  font-weight: 600;
+  line-height: 25px;
+  margin-top: 0px;
+}
+
+#aboutMeIntro p {
+  font-family: montserrat;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: normal;
+  padding-top: 50px;
+}
+
+#aboutMeParagraph h4 {
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+#aboutMeParagraph p {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+#List1 {
+  order: 1;
+}
+
+#mePhoto1 {
+  order: 2;
+}
+
+#list2 {
+  order: 3;
+}
+
+#mePhoto2 {
+  order: 4;
+}
+
+.mePhotos {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#AMListContainer {
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px #352a27;
+  border-bottom: solid 1px #352a27;
+  margin-top: 30px;
+  padding:10px 0px 30px 0px;
+}
+
+.aboutMeList h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.aboutMeList li {
+  font-family: montserrat;
+  margin-left: 25px;
+  line-height: 25px;
+  font-size: 15;
+}
+
+.aboutMeList {
+  list-style: disc;
+  margin-left: 0px;
+}
+
+#aboutMeClosing {
+  text-align: center;
+  padding-top: 100px;
+  max-width: 250px;
+  margin: auto;
+}
+
+#pearlEaringWink {
+  border-radius: 50%;
+  width: 50%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+#winkCredit {
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+#winkTextCredit {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 15px;
+  max-width: 90px;
+  line-height: 20px;
+  margin: auto;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: -95px;
+}
+#winkTextCredit a:hover {
+  color: #ea1f63;
+}
+#winkContainer:hover #pearlEaringWink {
+  opacity: 0.3;
+}
+
+#winkContainer:hover #winkCredit {
+  opacity: 1;
+}
+
+/* || Navigation Styles || */
+nav {
+  position: fixed;
+  z-index:1000;
+}
+#myLogo {
+  width: 50%;
+  min-width: 50px;
+  margin-left: 7px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-left: -10px;
+  margin-top: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: #352a27;
+  font-family: montserrat;
+  line-height: 10px;
+}
+
+a p:hover,
+button:hover {
+  color: #ea1f63;
+}
+
+.icon {
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 15px;
+}
+.iconTextContainer {
+  display: flex;
+  align-items: center;
+}
+.hidden {
+  visibility: hidden;
+  position: absolute;
+  z-index: -1000;
+}
+
+button {
+  background-color: #ffffff00;
+  border: none;
+  color: #352a27;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 0px;
+}
+
+#menuButton {
+  z-index: -1000;
+  position: absolute;
+  left: 0px;
+}
+
+#closeButton {
+  position: relative;
+  top: 70px;
+  left: 25px;
+}
+
+#dropDownMenu {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+#menuBackground {
+  width: 180px;
+  height: 110vh;
+  position: absolute;
+  top: -24px;
+  left: -23px;
+  background-color: #ffffff;
+}
+#greyBackground {
+  position: absolute;
+  top: -50px;
+  width: 1000px;
+  height: 1000px;
+  background-color: #352a2743;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+#pinkFootBar {
+  width: 1500px;
+  height: 20px;
+  background-color: #ea1f63;
+  margin-left: -200px;
+}
+
+/* || Responsive Styles || */
+
+@media only screen and (min-width: 600px) {
+  #content {
+    margin-left: 110px;
+    padding-left: 30px;
+    padding-right: 1%;
+  }
+
+  #menuButton {
+    display: none;
+  }
+  #dropDownMenu {
+    top: 30px;
+    visibility: visible;
+  }
+
+  #myLogo {
+    width: 60%;
+    min-width: 50px;
+  }
+  
+  #intro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+
+  #profilePicture1 {
+    max-width:300px;
+    min-width:200px;
+    width:100%;
+    height:100%;
+    flex-basis:50%;
+  }
+  #greeting {
+    align-self:flex-end;
+    margin:0px 0px 5px 20px;
+    max-width:100px;
+    flex-basis:50%;
+  }
+  h1 {
+    font-size: 65px;
+  }
+  #helloDetail {
+    max-width:100px;
+    height: 70px;
+  }
+
+  #pinkUnderline {
+    width: 185px;
+    height: 17px;
+    z-index: -1000;
+    margin-top:58px;
+  }
+  #introParagraph {
+    font-weight: 200;
+    line-height: 30px;
+    font-size: 24px;
+    max-width: 500px;
+    margin-bottom: -7px;
+  }
+
+  /* || About Me Page Responsive Styles || */
+
+  #AMprofilePicture {
+    padding-left: 25%;
+  }
+  #AMgreeting h5 {
+    font-size: 12px;
+    margin:45px 0px 0px 10px;
+    float:right;
+  }
+
+  #aboutMeName {
+    font-size: 30px;
+    padding-top: 18px;
+  }
+
+  #AMprofilePicture {
+    padding-right: 20%;
+  }
+
+  #AMpinkUnderline {
+    width: 226px;
+    height: 12px;
+    background-color: #ea1f63;
+    position: absolute;
+    z-index: -1000;
+    margin-top: 44px;
+    margin-left: 53px;
+  }
+
+  #aboutMeParagraph h4 {
+    margin-bottom: 0px;
+  }
+
+  #AMListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .mePhotosContainer {
+    flex-basis: 45%;
+  }
+
+  #mePhoto1,
+  #list2 {
+    max-width: 100%;
+    margin-left: 30px;
+  }
+
+  #List1 {
+    order: 1;
+  }
+
+  #mePhoto1 {
+    order: 2;
+  }
+
+  #list2 {
+    order: 4;
+  }
+
+  #mePhoto2 {
+    order: 3;
+  }
+
+  .mePhotos {
+    padding-top: 25px;
+  }
+
+  #AMListContainer ul {
+    flex-basis: 45%;
+  }
+
+  .aboutMeList h4 {
+    font-size: 19px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 40px;
+  }
+  #content {
+    margin-left: 18%;
+    padding-left: 30px;
+    padding-right: 1%;
+  }
+
+  #profilePicture1{
+    min-width:20%;
+    max-width:280px;
+  }
+
+  #greeting {
+    align-self: flex-start;
+    margin-top:160px;
+    margin-left: 5%;
+  }
+  h1 {
+    font-size: 90px;
+    line-height: 0px;
+    position: absolute;
+    z-index: -1;
+  }
+  #helloDetail {
+    height: 120px;
+  }
+  #pinkUnderline {
+    width: 255px;
+    height: 25px;
+    background-color: #ea1f63;
+    position: absolute;
+    z-index: -1000;
+    margin-top: 80px;
+  }
+  #introParagraph {
+    font-weight: 200;
+    line-height: 30px;
+    font-size: 22px;
+    max-width: 500px;
+    margin-top:-90px;
+    margin-left:278px;
+    padding-left: 5%;
+    min-width:300px;
+  }
+  .projectIntro {
+    display: flex;
+  }
+  .projectHead h2 {
+    line-height: 35px;
+    font-size: 27px;
+  }
+  .projectHead h4 {
+    margin-bottom: -10px;
+  }
+  .projectIntro p {
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  /* || About Me Page Responsive Styles || */
+
+  #AMprofilePicture {
+    align-self: center;
+    max-width: 250px;
+  }
+
+  #AMgreeting{
+    margin-bottom:30px;
+  }
+
+  #AMgreeting h5 {
+    font-size: 17px;
+    margin:55px 0px 0px 10px;
+    padding-right:15px;
+  }
+
+  #AMgreeting {
+    margin-left: 0px;
+  }
+
+  #aboutMeName {
+    font-size: 45px;
+    padding-top: 18px;
+  }
+
+  #AMpinkUnderline {
+    width: 337px;
+    height: 15px;
+    background-color: #ea1f63;
+    position: absolute;
+    z-index: -1000;
+    margin-top: 57px;
+    margin-left: 80px;
+  }
+  #aboutMeName {
+    line-height: 0px;
+  }
+}

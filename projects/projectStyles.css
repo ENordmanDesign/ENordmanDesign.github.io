@@ -1,0 +1,453 @@
+body {
+  min-width: 310px;
+}
+#content {
+  margin: 0px 0px 0px 85px;
+}
+
+#navContainer {
+  margin-top: 20px;
+}
+/* || Gallery Mode Button|| */
+.PPimageButtonContainer {
+  position: relative;
+}
+.PPgalleryOption {
+  position: absolute;
+  right: 0px;
+  width: 50px;
+  top: 140px;
+}
+
+.PPgalleryOption p {
+  writing-mode: sideways-lr;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+.PPgalleryMode {
+  background-color: rgba(0, 0, 0, 0.557);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 75px;
+  transition: width 0.5s, height 0.5s;
+}
+
+.PPgalleryMode:hover {
+  width: 45px;
+  height: 45px;
+}
+
+#galleryButton1 {
+  color: white;
+}
+
+.galleryViewTextHide {
+  visibility: hidden;
+  margin-bottom: -15px;
+}
+
+/* || Gallery Overlay Styles || */
+
+.hideAMGallery {
+  display: none;
+}
+
+#gallery {
+  min-width: 300px;
+}
+
+#galleryBackground {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  z-index: 10000;
+
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+#closeGallery {
+  color: white;
+  display: block;
+  background-color: black;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding-left: 5px;
+
+  float: right;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 20px;
+}
+
+#galleryImageContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+  width: 90vw;
+
+  display: flex;
+  align-items: center;
+}
+
+#galleryImageOverlay {
+  width: 100%;
+  min-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+#galleryText {
+  background-color: black;
+  width: 90vw;
+  min-width: 300px;
+  height: auto;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#galleryText p {
+  font-size: 14px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+#galleryNavigation {
+  margin: 0px auto 0 auto;
+  width: 80vw;
+}
+
+#galleryNavigation button p {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  border: #ffffff 1.5px solid;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+#nextImage {
+  float: right;
+  margin-right: 5px;
+}
+
+#nextImage p:hover,
+#previousImage p:hover,
+#closeGallery:hover {
+  background-color: #ea1f63;
+  border: none;
+}
+
+/* || Header Styles || */
+
+.PPgalleryImages {
+  width: 100%;
+  height: 200px;
+  max-height: 230px;
+  object-fit: cover;
+  margin: 20px 10px 20px 0px;
+}
+
+#firstGalleryButton {
+  margin-top: -15px;
+}
+
+#PPhead h2,
+h4 {
+  margin: 0px 0px 25px 0px;
+}
+
+.involvmentList {
+  margin: 40px 0px 0px 0px;
+  padding: 10px;
+  border-top: solid 1px #352a27;
+  border-bottom: solid 1px #352a27;
+}
+
+.involvmentList h3 {
+  margin: 010px 0px 5px 0px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.involvmentList li {
+  font-size: 13px;
+  font-family: montserrat;
+  line-height: 20px;
+}
+
+.pinkColorChange {
+  color: #ea1f63;
+}
+
+/* || Project Styles||  */
+
+#PPdate {
+  float: right;
+  margin: -10px 0px 0px 0px;
+  font-size: 13px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 0px;
+  margin: 50px 0px 25px 0px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 23px;
+}
+
+/* || Next Project Styles || */
+
+#nextProject {
+  border-top: solid 1px #352a27;
+  margin-top: 40px;
+  padding: 50px 0px 0px 0px;
+}
+
+#nextProjectFlexContainer {
+  display: flex;
+}
+
+#nextProjectTitle {
+  margin-left: 10%;
+  max-width: 33vw;
+  padding-top: 8px;
+}
+
+#nextProjectTitle h4 {
+  font-size: 13px;
+  line-height: 0px;
+  margin: 0px;
+}
+
+#nextProjectTitle h2 {
+  font-size: 21px;
+  line-height: 0px;
+  margin-top: 20px;
+}
+
+#NPwineLabelThumb {
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+}
+
+#nextProjectTitle h3 {
+  font-weight: 200;
+  font-size: 16px;
+  color: grey;
+  margin: 75px 0px 0px 0px;
+}
+
+#PPnext:hover {
+  color: #ea1f63;
+}
+
+@media only screen and (min-width: 600px) {
+  #content {
+    margin: 0px 0px 0px 115px;
+  }
+
+  /* || Fix Intro To Projects || */
+
+  #PPintroHead {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  #PPdate {
+    text-align: right;
+    margin: -10px 0px 0px 0px;
+    font-size: 15px;
+    order: 2;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 0px;
+    margin: 50px 0px 25px 0px;
+    order: 1;
+  }
+
+  /* || Fix Footer || */
+
+  #nextProjectFlexContainer {
+    justify-content: flex-end;
+  }
+
+  #nextProjectTitle {
+    margin-left:20px;
+    width:190px;
+  }
+
+  #nextProjectTitle h4 {
+    font-size: 13px;
+    line-height: 0px;
+    margin: 0px;
+  }
+
+  #nextProjectTitle h2 {
+    font-size: 21px;
+    line-height: 0px;
+    margin-top: 20px;
+  }
+
+  #nextProjectTitle h3 {
+    font-weight: 200;
+    font-size: 16px;
+    color: grey;
+    text-align: left;
+    margin-top: 110px;
+  }
+
+  #nextProject {
+    max-height: 150px;
+  }
+  #NPwineLabelThumb {
+    width: 25vw;
+    height: 25vw;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+  }
+
+  /* || Gallery Image Adjust || */
+
+  #galleryImageContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 90vw;
+
+    display: flex;
+    align-items: center;
+  }
+
+  #galleryImageOverlay {
+    object-fit: cover;
+    width: 100%;
+    min-width: 300px;
+    max-height: 50vh;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #content {
+    margin: 0px 30px 0px 115px;
+  }
+
+  /* || Header Alterations || */
+  .PPgalleryImages {
+    height: 350px;
+    max-height: 600px;
+  }
+
+  #firstGalleryButton {
+    margin-top: 140px;
+  }
+
+  #PPhead h2,
+  h4 {
+    margin: 20px 0px 25px 0px;
+  }
+  h2 {
+    font-size: 50px;
+    margin-bottom:50px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  .involvmentList {
+    margin: 40px 0px 0px 0px;
+    padding: 10px;
+    border-top: solid 1px #352a27;
+    border-bottom: solid 1px #352a27;
+  }
+
+  .involvmentList h3 {
+    margin: 010px 0px 5px 0px;
+    font-size: 25px;
+    margin:25px 0px 25px 0px;
+  }
+
+  .involvmentList li {
+    font-size: 15px;
+    font-family: montserrat;
+    line-height: 25px;
+  }
+
+  .involvmentList{
+    padding-bottom:25px;
+  }
+
+  .pinkColorChange {
+    color: #ea1f63;
+  }
+  
+
+  /* || Gallery Fix || */
+  #gallery{
+    max-width:98vw;
+  }
+ #galleryImageOverlay{
+    height:auto;
+    width:auto;
+ }
+  
+  #galleryText {
+    background-color: black;
+    width: 70vw;
+    min-width: 300px;
+    height: auto;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #galleryText p {
+    font-size: 17px;
+    line-height:30px;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  #galleryNavigation {
+    margin: 0px auto 0 auto;
+    width: 60vw;
+  }
+  
+  #galleryNavigation button p {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    border: #ffffff 1.5px solid;
+    padding: 5px;
+    border-radius: 25px;
+  }
+  .PPgalleryOption{
+    margin-top:150px;
+  }
+
+  #closeGallery {
+    margin:10px 150px 20px 0px;
+  }
+}

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ID=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword" content="HTML, Javascript, CSS" />
+    <meta
+      name="description"
+      content="Hello! My name is Erika and I am a product designer based in Sacramento"
+    />
+
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <title>Flight Menu Design</title>
+
+    <script src="../script.js" defer></script>
+
+    <link rel="stylesheet" href="../mainStyles.css" />
+    <link rel="stylesheet" href="projectStyles.css" />
+  </head>
+  <body id="theWholeThing">
+    <div id="galleryView" class="hideAMGallery">
+      <div id="galleryBackground">
+        <div id="gallery">
+          <button id="closeGallery">
+            <span class="material-symbols-outlined"> close </span>
+          </button>
+          <section id="galleryContent">
+            <div id="galleryImageContainer">
+              <img
+                src="../images/NDSphoto00.jpg"
+                alt="Next Door Shopper Thumbnail"
+                id="galleryImageOverlay"
+              />
+            </div>
+            <div id="galleryText">
+              <p id="galleryImageSummary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                maiores quos cupiditate atque error ea laborum cumque
+                perspiciatis voluptatum saepe?
+              </p>
+              <div id="galleryNavigation">
+                <button id="previousImage"><p>< Previous Image</p></button>
+                <button id="nextImage"><p>Next Image ></p></button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div id="navContainer">
+        <ul>
+          <a href="../index.html"
+            ><img src="../images/myLogo.png" alt="My Logo" id="myLogo"
+          /></a>
+          <!-- menu icon -->
+          <li>
+            <button id="menuButton">
+              <span id="menuIcon" class="material-symbols-outlined">menu</span>
+            </button>
+          </li>
+          <div id="dropDownContainer" class="hidden">
+            <div id="greyBackground"></div>
+            <div id="menuBackground">
+              <button id="closeButton">
+                <span class="material-symbols-outlined"> close </span>
+              </button>
+              <div id="dropDownMenu">
+                <li>
+                  <a
+                    href="https://www.behance.net/erikanordman1?tracking_source=search_users|erika%20nordman"
+                    target="_blank"
+                    ><div class="iconTextContainer">
+                      <img
+                        src="../images/behanceLogo.png"
+                        alt="Behance"
+                        class="icon"
+                      />
+                      <p>Behance</p>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/erika-nordman-3559b31bb/"
+                    target="_blank"
+                    ><div class="iconTextContainer">
+                      <img
+                        src="../images/linkedinLogo.png"
+                        alt="Linkedin"
+                        class="icon"
+                      />
+                      <p>Linkedin</p>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a href="../aboutMe.html"
+                    ><div class="iconTextContainer">
+                      <img
+                        src="../images/aboutMeLogo.png"
+                        alt="About Me"
+                        class="icon"
+                      />
+                      <p>About Me</p>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="&#101;&#046;&#110;&#111;&#114;&#100;&#109;&#097;&#110;&#048;&#048;&#049;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+                    ><div class="iconTextContainer">
+                      <img
+                        src="../images/emailLogo.png"
+                        alt="Email"
+                        class="icon"
+                      />
+                      <p>Email Me</p>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a href="documents/ENordmanResume.pdf" download
+                    ><div class="iconTextContainer">
+                      <img
+                        src="../images/resumeLogo.png"
+                        alt="Resume"
+                        class="icon"
+                      />
+                      <p>Resume</p>
+                    </div></a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <div id="content">
+      <head id="PPhead">
+        <div class="PPimageButtonContainer">
+          <img
+            src="../images/NDSphoto00.jpg"
+            alt="Next Door Shopper Thumbnail"
+            id="PPmainPhoto"
+            class="PPgalleryImages"
+          />
+          <div id="firstGalleryButton" class="PPgalleryOption">
+            <p><i>Gallery View</i></p>
+            <button id="galleryButton1" class="PPgalleryMode">
+              <span class="material-symbols-outlined"> imagesmode </span>
+            </button>
+          </div>
+        </div>
+
+        <h4>Graphic Design</h4>
+        <h2>Flight Menu Design</h2>
+
+        <ul class="involvmentList">
+          <h3>My Involvment</h3>
+          <li>UX Researcher | <i class="pinkColorChange">Figma</i></li>
+          <li>
+            UI Designer | <i class="pinkColorChange">Adobe Illustrator</i>
+          </li>
+        </ul>
+      </head>
+
+      <section id="intro">
+        <div id="PPintroHead">
+          <p id="PPdate" class="pinkColorChange">
+            <i>April 2021 - May 2021</i>
+          </p>
+          <h3>Scope</h3>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab
+          quae natus laudantium corporis sed in accusantium ratione aspernatur
+          error amet tempora totam voluptatibus hic quibusdam recusandae
+          corrupti temporibus enim animi voluptate nesciunt, laborum saepe autem
+          nam! Possimus quae laudantium quibusdam sint inventore unde laboriosam
+          quos! Fuga accusamus unde omnis animi non quod, veritatis, impedit
+          eius minima, quis dolorum perferendis dignissimos sapiente sit dolore
+          corrupti!
+        </p>
+      </section>
+
+      <section id="gallery">
+        <div class="PPimageButtonContainer">
+          <img
+            src="../images/NDSphoto01.jpeg"
+            alt="NextDoorShopperPhoto02"
+            id="PP2photo"
+            class="PPgalleryImages"
+          />
+          <div class="PPgalleryOption">
+            <p class="galleryViewTextHide"><i>Gallery View</i></p>
+            <button id="galleryButton2" class="PPgalleryMode">
+              <img
+                src="../images/behanceLogo.png"
+                alt="Behance"
+                class="galleryModeButton"
+              />
+            </button>
+          </div>
+        </div>
+
+        <h3>Process</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          consectetur magni ipsam eos incidunt, maxime nostrum modi recusandae,
+          optio quod possimus eligendi exercitationem temporibus earum molestias
+          mollitia repellendus unde nemo? Error ad ipsam illum, natus quo
+          tempora voluptatibus, esse expedita adipisci repudiandae placeat aut
+          magni quia atque dolor modi magnam eos dicta qui vel! Alias hic
+          recusandae accusantium quae excepturi nemo perspiciatis! Omnis,
+          adipisci consequatur? Perferendis dolores expedita explicabo quos
+          natus accusantium deleniti aut dolore veniam modi aperiam consectetur
+          eaque, illo hic incidunt, alias architecto animi et eveniet. Quas
+          perspiciatis eaque eligendi, illum temporibus quod labore! Non
+          reprehenderit est eos.
+        </p>
+
+        <div class="PPimageButtonContainer">
+          <img
+            src="../images/NDSphoto02.jpeg"
+            alt="NextDoorShopperPhoto02"
+            id="PP3photo"
+            class="PPgalleryImages"
+          />
+          <div class="PPgalleryOption">
+            <p class="galleryViewTextHide"><i>Gallery View</i></p>
+            <button id="galleryButton3" class="PPgalleryMode">
+              <img
+                src="../images/behanceLogo.png"
+                alt="Behance"
+                class="galleryModeButton"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="PPimageButtonContainer">
+          <img
+            src="../images/NDSphoto03.jpeg"
+            alt="NextDoorShopperPhoto02"
+            id="PP4photo"
+            class="PPgalleryImages"
+          />
+          <div class="PPgalleryOption">
+            <p class="galleryViewTextHide"><i>Gallery View</i></p>
+            <button id="galleryButton4" class="PPgalleryMode">
+              <img
+                src="../images/behanceLogo.png"
+                alt="Behance"
+                class="galleryModeButton"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="PPimageButtonContainer">
+          <img
+            src="../images/NDSphoto04.jpeg"
+            alt="NextDoorShopperPhoto02"
+            id="PP5photo"
+            class="PPgalleryImages"
+          />
+          <div class="PPgalleryOption">
+            <p class="galleryViewTextHide"><i>Gallery View</i></p>
+            <button id="galleryButton5" class="PPgalleryMode">
+              <img
+                src="../images/behanceLogo.png"
+                alt="Behance"
+                class="galleryModeButton"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="nextProject">
+        <div id="nextProjectFlexContainer">
+          <a href="nextDoorShopper.html"
+            ><img
+              src="../images/NDSphoto05.jpg"
+              alt="wineLabelsThumbnail"
+              id="NPwineLabelThumb"
+          /></a>
+          <div id="nextProjectTitle">
+            <a href="nextDoorShopper.html">
+              <h4>UI/UX Case Study</h4>
+              <h2>Next Door Shopper</h2>
+              <h3 id="PPnext">Back to Beginning ></h3></a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer><div id="pinkFootBar"></div></footer>
+  </body>
+</html>
