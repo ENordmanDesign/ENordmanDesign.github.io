@@ -3,8 +3,8 @@ body {
   margin: 0% 5%;
   min-width: 325px;
   max-width: 1800px;
-  overflow:hidden;
 }
+
 #content {
   margin-left: 85px;
   margin-top: 5%;
@@ -324,10 +324,12 @@ footer {
 }
 
 #pinkFootBar {
-  width: 1500px;
+  width:100vw;
   height: 20px;
   background-color: #ea1f63;
-  margin-left: -200px;
+  position:absolute;
+  left:0px;
+  bottom:100wh;
 }
 
 /* || Responsive Styles || */
