@@ -71,18 +71,19 @@ body {
   width: 98vw;
 } */
 
-#galleryView{
+/* #galleryView{
   overflow:hidden;
-}
+} */
 
 #galleryBackground {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0px;
   left: 0px;
   z-index: 10000;
   background-color: rgba(0, 0, 0, 0.808);
+  overflow:hidden;
 }
 
 #closeGallery {
