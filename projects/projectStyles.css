@@ -83,8 +83,10 @@ body {
   left: 0px;
   z-index: 10000;
   background-color: rgba(0, 0, 0, 0.808);
+  margin:0px;
   overflow:hidden;
 }
+
 
 #closeGallery {
   color: white;
