@@ -67,14 +67,11 @@ body {
   display: none;
 }
 
-#gallery {
+/* #gallery {
   width: 98vw;
-}
+} */
 
 #galleryView{
-  position:fixed;
-  top:0px;
-  left:0px;
   overflow:hidden;
 }
 
@@ -182,6 +179,10 @@ body {
 #PPhead h2,
 h4 {
   margin: 0px 0px 25px 0px;
+}
+
+#PPMainTitle{
+  margin:0px;
 }
 
 .involvmentList {
