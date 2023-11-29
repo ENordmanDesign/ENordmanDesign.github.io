@@ -78,8 +78,9 @@ body {
   top: 0px;
   left: 0px;
   z-index: 10000;
-  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.808);
+  overflow-y: hidden;
+
 }
 
 #closeGallery {
