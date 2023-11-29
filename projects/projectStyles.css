@@ -403,6 +403,11 @@ p {
     margin-top: 140px;
   }
 
+  #processText {
+    width:75vw;
+    max-width:800px;
+  }
+
   #PPhead h2,
   h4 {
     margin: 20px 0px 25px 0px;
