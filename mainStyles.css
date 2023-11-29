@@ -21,7 +21,11 @@ body {
 h1,
 h2 {
   font-family: gloock;
-  min-width: 250px;
+  /* min-width: 250px; */
+}
+
+h4{
+  max-width:90%;
 }
 
 h4 {
