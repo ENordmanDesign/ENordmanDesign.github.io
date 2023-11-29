@@ -5,6 +5,7 @@ body {
 
 #content {
   margin: 0px 0px 0px 85px;
+  overflow-x:hidden;
 }
 
 #navContainer {
@@ -191,6 +192,7 @@ h3{
 #PPMainTitle{
   margin:0px;
   max-width:90%;
+  line-height: 25px;
 }
 
 .involvmentList {
